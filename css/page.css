@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Lato|Open+Sans:300,300i,700,700i');
+
+/* All Page */
+
+body {font-family: "Lato", sans-serif;
+    margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    margin-top: 70px;}
+       
+
+main {background-color: #e6e6e6;
+    padding-left: 50px;
+    padding-right: 50px;
+    -webkit-box-shadow: -8px 6px 25px 0px rgba(0,0,0,0.49);
+-moz-box-shadow: -8px 6px 25px 0px rgba(0,0,0,0.49);
+box-shadow: -8px 6px 25px 0px rgba(0,0,0,0.49);}
+
+h1 {text-align: center;}
+
+h2 {color: #b30000;
+    font-size: 26px;}
+
+h3 {color: #b30000;
+    text-align: center;}
+
+header a.logo {z-index: 2;
+position: fixed;
+display: block;
+width: 120px;
+height: 74px;
+background: url(../img/logo.png) no-repeat 0 0;
+background-size: contain;
+top: 0px; left:70px;
+}
+
+/* Navigation */
+
+nav {z-index: 1;
+    background-color: 	#b30000;
+position: fixed;
+font-family: Open Sans, sans-serif;
+top: 0px;
+left: 0px;
+margin: 0 0 15px 0;
+padding: 25px 0 0 0;
+width: 100%;
+clear:both;
+-webkit-box-shadow: 0px 2px 51px 0px rgba(0,0,0,0.7);
+-moz-box-shadow: 0px 2px 51px 0px rgba(0,0,0,0.7);
+box-shadow: 0px 2px 51px 0px rgba(0,0,0,0.7);}
+
+nav ul {list-style: none;
+padding: 0 30px 0 0;
+font-size: 1.5em;}
+
+nav ul li:hover {background-color: #c3bcbb;}
+
+nav ul li:hover > ul {display: block;}
+
+nav ul li a {display: inline-block;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+width: 100%;
+position: relative;}
+
+
+nav ul li a:hover {background-color: #c3bcbb;
+text-decoration: none;}
+
+nav ul ul {position: relative;
+top: 100%;
+background-color: black; display: none;
+font-size: 1em;
+}
+
+
+/* top-level Navigation */
+
+nav > ul {padding-left: 200px;}
+
+nav > ul > li {float: left;}
+
+nav > ul > li > a {width: auto;}
+
+/* Footer */
+
+footer {padding: 5px 0 15px 0;}
+
+/* Feature */
+
+#featured h2 {padding-top: 40px;}
+
+/* Planning */
+
+#planning h2 {padding-top: 50px;}
+
+#planning a {color: #ef4107;}
+#planning a:hover {color: black;}
+
+/* Applications */
+#applications h2 {padding-top: 60px;}
+
+/* Loan Funds */
+
+#loanfunds h2 {padding-top: 90px;}
+#loanfunds h3 {padding: 15px 0 15px 0;}
+
+#loanfunds a {color: #ef4107;}
+#laonfunds a:hover {color: black;}
+
+/* Business */
+
+#business .col-md-5 {margin: 5px 50px 5px 35px;}
+
+#business h2 {clear: both;
+padding-top: 70px;}
+
+table {margin: 15px 0 15px 15px;}
+
+tr {background-color: #fff;
+border: solid #000;
+}
+
+tr:hover {background-color: #c8bebb;}
+
+/* Housing */
+
+#housing h2 {padding-top: 80px;}
+
+#housing a {color: #ef4107;}
+#housing a:hover {color: black;}
+
+/* TRANSIT */
+
+#transit img {width: 400px;
+margin: 50px 15px;}
+
+#transit h2 {padding-top: 60px;}
+
+#transit a {color: #ef4107;}
+#transit a:hover {color: black;}
+
+/* Dart */
+
+#dart h2 {padding-top: 75px;}
+
+#dart a {color: #ef4107;}
+#dart a:hover {color: black;}
+
+.center {padding: 0 0 0 35px;}
+
+/* Region */
+
+#region h2 {padding-top: 75px;}
+#region h3 {text-align: left;}
+
+/* Maps */
+
+#maps img {width: 100px;}
+
+#maps h2 {padding-top: 75px;}
+
+#maps a {color: #ef4107;}
+#maps a:hover {color: black;}
+
+/* Executive Board */
+
+#exec h2{padding-top: 60px;}
+
+/* Management and Finance */
+
+.tg-yw4l {padding: 15px;}
+
+#managementfinance h2 {padding-top: 60px;}
+
+
+/* Planning Subcommittee */
+
+.tg-3we0 {padding: 15px;}
+#planningsub h2 {padding-top: 55px;}
+
+/* Transit Subcommittee */
+
+#transitsub h2 {padding-top: 55px;}
+
+/* Budget */
+
+#budget h2 {padding-top: 45px;}
+
+/* Bylaws */
+
+#bylaws h2 {padding-top: 45px;}
+
+/*contact*/
+#container h2 {padding-top: 45px;}
+
+.column {width: 50%;
+        height: 100%;
+        display: flex;}
+
+#container {width: 100%;
+            height: 100%;
+            overflow: auto;
+            margin-right: auto;
+            margin-left: auto;
+            }
+
+.contactname {text-align: center;
+        padding-top: 10px;
+        font-size: 16px;}
+
+.copyright {padding-bottom: 5px;}
+
+hr {border-color: black;}
+
+.twitter {height: 100px;
+        width: 100px;
+            border-radius: 5px;
+            margin-left: auto;
+            margin-right: auto;}
+
+.facebook {height: 10%;
+            width: 10%;
+        margin-left: auto;
+            margin-right: auto;}
+
+.media {
+        text-align: center;}
+
+.tg {margin-left: auto;
+    margin-right: auto;}
+

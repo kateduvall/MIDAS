@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Lato|Open+Sans:300,300i,700,700i');
+
+
+body {font-family: "Lato", sans-serif;
+}
+
+#home {margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    margin-top: 70px;
+        }
+
+main {background-color: #e6e6e6;
+    padding-left: 50px;
+    padding-right: 50px;
+    -webkit-box-shadow: -8px 6px 25px 0px rgba(0,0,0,0.49);
+-moz-box-shadow: -8px 6px 25px 0px rgba(0,0,0,0.49);
+box-shadow: -8px 6px 25px 0px rgba(0,0,0,0.49);}
+
+h1 {text-align: center;
+padding-top: 60px;}
+
+.right-column {margin: 0 0 0 -25px;
+font-size: 16px;}
+
+
+.row
+
+#container {height: 400px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: auto;}
+
+h3 {color: #b30000;
+    text-align: center;}
+
+h2 {color: #b30000;
+    font-size: 26px;}
+
+hr {border-color: black;}
+
+blockquote {clear: both; 
+    text-align: center;}
+
+.center {clear: both; font-size: 16px;
+    text-align: center;}
+
+.featured {color: #ef4107;
+font-size: 16px;}
+.featured:hover {color: black;}
+
+aside {padding-left: 15px;}
+
+header a.logo {z-index: 2;
+position: fixed;
+display: block;
+width: 120px;
+height: 74px;
+background: url(../img/logo.png) no-repeat 0 0;
+background-size: contain;
+top: 0px; left:70px;
+}
+
+
+/* Navigation */
+
+nav {z-index: 1;
+    background-color: 	#b30000;
+position: fixed;
+font-family: Open Sans, sans-serif;
+top: 0px;
+left: 0px;
+margin: 0 0 15px 0;
+padding: 25px 0 0 0;
+width: 100%;
+clear:both;
+-webkit-box-shadow: 0px 2px 51px 0px rgba(0,0,0,0.7);
+-moz-box-shadow: 0px 2px 51px 0px rgba(0,0,0,0.7);
+box-shadow: 0px 2px 51px 0px rgba(0,0,0,0.7);}
+
+nav ul {list-style: none;
+padding: 0 30px 0 0;
+font-size: 1.5em;}
+
+nav ul li:hover {background-color: #c3bcbb;}
+
+nav ul li:hover > ul {display: block;}
+
+nav ul li a {display: inline-block;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+width: 100%;
+position: relative;}
+
+
+nav ul li a:hover {background-color: #c3bcbb;
+text-decoration: none;}
+
+nav ul ul {position: relative;
+top: 100%;
+background-color: black; display: none;
+font-size: 1em;
+}
+
+
+/* top-level */
+
+nav > ul {padding-left: 200px;}
+
+nav > ul > li {float: left;}
+
+nav > ul > li > a {width: auto;}

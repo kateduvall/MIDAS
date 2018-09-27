@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="summary" content="Helping local governments with regional issues, problems and opportunities.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MIDAS Council of Governments</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"> 
+	<link href="../css/style.css" rel="stylesheet" type="text/css">        
+	</head>
+    <header>
+            <a class="logo" title="MIDAS" href="../pages/index.html"></a>
+        </header>
+    <nav>
+            <ul>
+                <li>
+                    <a title="Home" href="../pages/index.html"> Home </a>
+                </li>
+                <li>
+                    <a title="Planning" href="../pages/planning.html"> Planning </a>
+                
+                    <ul>
+                        <li>
+                            <a title="Applications" href="../pages/applications.html">Applications</a>
+                        </li>
+                        <li>
+                            <a title="Revolving Loan Funds" href="../pages/loanfunds.html">Revolving Loan Funds</a>
+                            <ul>
+                            <li><a href="../pages/business.html">Business Development RLF Information</a></li>
+                            <li><a href="../pages/housing.html">Housing Revolving Loan Fund</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a title="Transit" href="../pages/transitservices.html"> TRANSIT</a>
+                     <ul>
+                        <li>
+                            <a title="DART" href="../pages/dart.html">DART</a>
+                        </li>
+                        <li>
+                            <a title="Region V Transit System" href="../pages/region.html">Region V Transit System</a>
+                        </li>
+                        <li>
+                            <a title="Maps" href="../pages/maps.html" >Maps</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a title="Executive Board" href="../pages/execboard.html">Executive Board</a>
+                     <ul>
+                        <li>
+                            <a title="Management and Finance" href="../pages/managementfinance.html">Management and Finance</a>
+                        </li>
+                        <li>
+                            <a title="Planning Subcommittee" href="../pages/planningsub.html">Planning Subcommittee</a>
+                        </li>
+                         <li>
+                             <a title="Transit Subcommittee" href="../pages/transitsub.html">Transit Subcommittee</a>
+                         </li>
+                         <li>
+                            <a title="Budget" href="../pages/budget.html">Budget</a>
+                         </li>
+                         <li>
+                             <a title="Bylaws" href="../pages/bylaws.html">Bylaws</a>
+                         </li>
+                    </ul>
+                </li>
+                <li>
+                    <a title="Contact Us" href="../pages/contact.html"> Contact Us </a>
+                </li>
+            </ul>
+        
+        </nav>
+
+	<body id="home">
+        <main>
+		<br><h1>Mid-Iowa Development Association (MIDAS) Council of Governments</h1>
+            <br>
+            <div id="container">
+                
+                <!--slideshow-->
+        <div class="row">
+            <div class="col-md-6">
+        <div class="left-column">
+            
+            <img class="mySlides" src="../img/midasbus.jpg" height="400" width="400">
+            <img class="mySlides" src="../img/field.jpg" height="400" width="400">
+            <img class="mySlides" src="../img/webstercity.jpg" height="400" width="400">
+            <img class="mySlides" src="../img/midas.jpg" height="400" width="400">
+            
+            <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 4000); // Change image every 4 seconds
+}
+            </script>
+                </div>
+                </div>
+            
+                <!---end slideshow-->
+            <div class="col-md-6">
+        <div class="right-column">
+            <p>The region that constitutes Mid-Iowa Development Association (MIDAS) consists of all of Calhoun, Hamilton, Humboldt, Pocahontas, Webster and Wright Counties, as well as the local governments within this area.</p>
+        <p>MIDAS Council of Governments is an intergovernmental agency (28E and 28H) that was created in response to common interests of governments and the need for cooperative approaches to solve area-wide issues. This cooperative venture is intended to help local governments improve their capacity to implement services by defining regional issues, problems, and opportunities; setting priorities and formulating policies, plans and programs to deal with them; and achieving efficient and effective action on area wide matters through communications, coordination, and cooperation.</p>
+        <p> Programs are voluntary as MIDAS does not have authority to bind its members, nor can it force adherence to any given plan or policy.</p>
+                </div></div>
+        <br>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-12">
+        <h3>MIDAS Mission Statement</h3>
+        <blockquote>"The MIDAS cooperative venture is intended to help local governments improve their capacity to implement services by defining regional issues, problems, and opportunities; 
+            setting priorities and formulating policies, plans, and programs to deal with them; 
+            and achieving efficient and effective action on area wide matters through communications, coordination and cooperation."</blockquote>
+         <p class="center">The mission statement was developed in 1971 and has not been changed since.</p>
+            </div>
+            </div>
+        
+        <aside>
+        <h2>Featured</h2>
+            <ul>
+                <li><a class="featured" href="featured.html">Housing Inspection Workshop on April 18th!</a></li>
+            </ul>
+        </aside>
+            <br>
+        
+            </main>
+        <hr>
+        
+<footer class="copyright">
+                &copy; 2017 MIDAS
+            </footer><br><br>
+        
+    <script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery-3.2.0.slim.min.js"></script>
+            
+	</body>
+</html>
